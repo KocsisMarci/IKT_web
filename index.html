@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- kijelzőn optimális lesz a felbontás-->
     <link rel="stylesheet" href="css/style.css"> <!--külső (External) stíluslap csatolása a html fájlhoz-->
     <title>Document</title> <!--A böngésző címsorában megjelenő nlv-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  <!--favicon-->
     <style> 
         h1{
             color:brown;
@@ -90,6 +91,30 @@ table>tr*4>td*2
     <i></i> vagy <em></em> <!--dől betű szöveg -->
     <u></u> <!--aláhúzott-->
     <span></span> vagy  <mark></mark> <!--egyedileg formázott szövegnél alkalmazzuk-->
-    
+    <fieldset> <!--Részekre bontható az egész-->
+        <legend>Személyes adatok</legend> <!--Adott rész címének a beállítása-->
+    <form action=""> <!--adatbekérés-->
+        <label for="neve" >NÉV:</label> <!--Megnevezés-->
+    <input type="text" name="nev" id="neve" placeholder="Vezetéknév keresztnév">
+    </fieldset>
+    <fieldset>
+        <select name="autok" id="auto">
+         <option value=""></option>
+         <option value="">Audi</option
+         <option value="">BMW</option>
+         <option value="">Ford</option>
+         <option value="">Fiat</option>
+</select> <!--Dropdown-->
+    </fieldset>
+    <button type="button"></button>
+    <textarea name="message" id="uzenet" cols="30" rows="10"></textarea>
+    </form>
+    <nav></nav> <!--Navigációs menü kialakítása-->
+    <header></header>  <!--fejléc a body-n belül-->
+    <footer></footer>  <!--lábléc a body-n belül-->
     </body> <!--A felhasználónak ad  információt--> 
+   <p>P<sub>2</sub></p> <!--alsó index-->
+<p>m<sup>2</sup></p> <!--felső index-->
+    <iframe>Videó megosztás, beágyazás, annak kimásolása</iframe>
+</body>
 </html>
